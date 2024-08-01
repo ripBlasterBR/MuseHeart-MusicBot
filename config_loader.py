@@ -12,9 +12,9 @@ bools = {
 }
 
 DEFAULT_CONFIG = {
-    "DEFAULT_PREFIX": "!!",
+    "DEFAULT_PREFIX": "!",
     "AUTO_SYNC_COMMANDS": True,
-    "OWNER_IDS": "",
+    "OWNER_IDS": "849654177336655954",
     "COMMAND_LOG": False,
     "EMBED_COLOR": None,
     "BOT_ADD_REMOVE_LOG": '',
@@ -22,8 +22,8 @@ DEFAULT_CONFIG = {
     "AUTO_ERROR_REPORT_WEBHOOK": '',
     "INTERACTION_COMMAND_ONLY": False,
     "PRESENCE_INTERVAL": 900,
-    "SOURCE_REPO": "https://github.com/zRitsu/MuseHeart-MusicBot.git",
-    "SUPPORT_SERVER": "",
+    "SOURCE_REPO": "",
+    "SUPPORT_SERVER": "https://discord.gg/uQ86EhjDmW",
     "ADDITIONAL_BOT_IDS": "",
     "INVITE_PERMISSIONS": 332892794064,
     "ENABLE_LOGGER": False,
@@ -35,7 +35,7 @@ DEFAULT_CONFIG = {
     ################
     ### Database ###
     ################
-    "MONGO": "",
+    "MONGO": "mongodb+srv://rip_Blaster:k4O3DAz1CBCt0o8J@unnamedbot.2y3xom1.mongodb.net/",
     "MONGO_TIMEOUT": 30,
     "SENSITIVE_INFO_WARN": True,
 
@@ -71,8 +71,8 @@ DEFAULT_CONFIG = {
     ##############################################
     ### Sistema de música - Suporte ao spotify ###
     ##############################################
-    "SPOTIFY_CLIENT_ID": '',
-    "SPOTIFY_CLIENT_SECRET": '',
+    "SPOTIFY_CLIENT_ID": '7611c88c7ba1442e83eb0b25d6397829',
+    "SPOTIFY_CLIENT_SECRET": '77f72bd20bb24803a78366b64b206870',
 
     ################################################
     ### Sistema de música - RPC (Rich Presence): ###
@@ -107,11 +107,11 @@ DEFAULT_CONFIG = {
     ##########################
     ##### Bot presences: #####
     ##########################
-    "LISTENING_PRESENCES": "",
-    "WATCHING_PRESENCES": "",
-    "PLAYING_PRESENCES": "",
-    "STREAMING_PRESENCES": "",
-    "CUSTOM_STATUS_PRESENCES": "",
+    "LISTENING_PRESENCES": "1",
+    "WATCHING_PRESENCES": "2",
+    "PLAYING_PRESENCES": "3",
+    "STREAMING_PRESENCES": "4",
+    "CUSTOM_STATUS_PRESENCES": "5",
 
     ###############
     ### Intents ###
